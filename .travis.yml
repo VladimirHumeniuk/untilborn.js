@@ -1,6 +1,5 @@
 branches:
-  except:
-  - master
   only:
+  - master
   - /^feature-.*$/
   - /^hotfix-.*$/
