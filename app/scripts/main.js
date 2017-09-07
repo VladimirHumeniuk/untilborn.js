@@ -19,7 +19,7 @@
 })();
 
 (function() {
-  'use sctrict';
+  'use strict';
 
   // type of(el) - dom object
   function assignClass(el, dataObj) {
