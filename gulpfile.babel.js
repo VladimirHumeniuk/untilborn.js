@@ -132,7 +132,7 @@ gulp.task('serve:dist', ['default'], () =>
 gulp.task('default', ['clean'], cb =>
   runSequence(
     'styles',
-    ['lint', 'pug', 'html', 'scripts', 'copy'],
+    ['lint', 'pug', 'html', 'scripts'],
     cb
   )
 );
