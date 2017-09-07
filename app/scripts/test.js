@@ -11,17 +11,12 @@
 
   setTimeout(function() {
     blogText.appendChild(textText);
-  }, 3400);
+  }, 1120);
 
   let blogDate = document.querySelector('.blog-date');
   let dateText = document.createTextNode('23 december 2017');
 
   setTimeout(function() {
     blogDate.appendChild(dateText);
-  }, 2000);
-})();
-
-(function() {
-  let untilLoad = document.querySelectorAll('[data-attribute="untilLoad"]');
-  untilLoad = Array.prototype.slice.call(untilLoad, 0);
+  }, 3330);
 })();
