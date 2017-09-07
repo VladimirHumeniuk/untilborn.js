@@ -19,8 +19,34 @@
 })();
 
 (function() {
-  let untilLoad = document.querySelectorAll('[data-attribute="untilLoad"]')
-      untilLoad = Array.prototype.slice.call(untilLoad, 0);
+  'use sctrict';
 
+  // type of(el) - dom object
+  function assignClass(el, dataObj) {
+    for (let key in dataObj) {
+      if (el.tagName === key) {
+        el.classList.add(dataObj[key]);
+      }
+    }
+  }
+
+  const classesForTags = {
+    'P': 'until-text',
+    'IMG': 'until-img',
+    'H1': 'until-title-h1',
+    'H2': 'until-title-h2'
+  };
+
+  let untilLoad = document.querySelectorAll('[data-attribute="untilLoad"]');
+  untilLoad = Array.prototype.slice.call(untilLoad, 0);
+
+  untilLoad.forEach(el => {
+    let untilLoadChildren = el.getElementsByTagName('*');
+    untilLoadChildren = Array.prototype.slice.call(untilLoadChildren, 0);
+
+    untilLoadChildren.forEach(el => {
+      assignClass(el, classesForTags);
+    });
+  });
 
 })();
