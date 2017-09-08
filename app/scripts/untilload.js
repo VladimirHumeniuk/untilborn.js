@@ -1,19 +1,23 @@
 ((() => {
   let untilLoad = document.querySelectorAll('[data-attribute="untilLoad"]');
-  untilLoad = Array.prototype.slice.call(untilLoad['0'].children);
+  untilLoad = Array.prototype.slice.call(untilLoad);
 
   let inlineChunk = [];
   let blockChunk = [];
 
-  for (let i = 0; i < untilLoad.length; i++) {
-    let computedType = window.getComputedStyle(untilLoad[i]).display.toString();
+  untilLoad.forEach(el => {
+    let untilLoadChildren = Array.prototype.slice.call(el.children, 0);
 
-    if (computedType === 'block') {
-      blockChunk.push(untilLoad[i]);
-    } else {
-      inlineChunk.push(untilLoad[i]);
-    }
-  }
+    untilLoadChildren.forEach(el => {
+      let computedType = window.getComputedStyle(el).display.toString();
+
+      if (computedType === 'block') {
+        blockChunk.push(el);
+      } else {
+        inlineChunk.push(el);
+      }
+    });
+  });
 
   console.log(blockChunk, inlineChunk);
 }))();
