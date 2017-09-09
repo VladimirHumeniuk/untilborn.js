@@ -12,7 +12,6 @@ import { StyleSheet, css } from 'aphrodite-jss';
     let untilLoadChildren = untilLoad.slice.call(el.children, 0);
 
     untilLoadChildren.forEach((el) => {
-
       let placeholderHeigth = window.getComputedStyle(el).lineHeight;
 
       const sheet = StyleSheet.create({
