@@ -19,7 +19,7 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "test": "eslint src config",
+    "test": "yarn && yarn build && eslint src config && git status",
     "start": "webpack-dev-server --colors",
     "build": "npm run clean && NODE_ENV=production webpack",
     "lint": "eslint src config",
@@ -53,5 +53,9 @@
     "url-loader": "^0.5.8",
     "webpack": "^3.2.0",
     "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "aphrodite-jss": "^2.0.0",
+    "jss": "^8.1.0"
   }
 }

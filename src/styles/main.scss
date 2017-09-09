@@ -31,11 +31,6 @@ body {
   max-width: 100%;
 }
 
-.until-load {
-  background: currentColor;
-  filter: opacity(20%);
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
-              0 3px 6px rgba(0,0,0,0.23);
-  height: 27px;
-  overflow: hidden;
+.blog-date {
+  max-width: 160px;
 }
