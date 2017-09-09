@@ -1,0 +1,21 @@
+{
+  "extends": ["plugin:react/recommended", "react"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "space-before-function-paren": ["error", {
+    "anonymous": "never",
+    "named": "always",
+    "asyncArrow": "always"
+    }],
+    "prefer-reflect": 0
+  }
+}
