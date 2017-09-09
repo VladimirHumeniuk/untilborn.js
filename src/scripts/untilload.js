@@ -16,11 +16,13 @@ import { StyleSheet, css } from 'aphrodite-jss';
 
       const sheet = StyleSheet.create({
         placeholder: {
-          backgroundColor: 'currentColor',
-          opacity: '.2',
-          overflow: 'hidden',
-          width: 'auto',
-          height: placeholderHeigth
+          '&:empty': {
+            backgroundColor: 'currentColor',
+            opacity: '.2',
+            overflow: 'hidden',
+            width: 'auto',
+            height: placeholderHeigth
+          }
         }
       });
 
