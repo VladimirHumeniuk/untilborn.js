@@ -12,33 +12,29 @@ import { StyleSheet, css } from 'aphrodite-jss';
     let untilLoadChildren = untilLoad.slice.call(el.children, 0);
 
     untilLoadChildren.forEach((el) => {
+
+      let placeholderHeigth = window.getComputedStyle(el).lineHeight;
+
+      const sheet = StyleSheet.create({
+        placeholder: {
+          backgroundColor: 'currentColor',
+          opacity: '.2',
+          overflow: 'hidden',
+          width: 'auto',
+          height: placeholderHeigth
+        }
+      });
+
       let computedType = window.getComputedStyle(el).display.toString();
 
       if (computedType === 'block') {
         blockChunk.push(el);
+        el.classList.add(`${css(sheet.placeholder)}`);
       } else {
         inlineChunk.push(el);
       }
     });
   });
 
-  blockChunk.forEach((el) => {
-    let placeholderHeigth = window.getComputedStyle(el).lineHeight;
-
-    const sheet = StyleSheet.create({
-      placeholder: {
-        backgroundColor: 'currentColor',
-        opacity: '.2',
-        width: '100%',
-        height: placeholderHeigth,
-        fontSize: 33
-      }
-    });
-
-    let placeholder = `<div class="${css(sheet.placeholder)}"></div>`;
-
-    el.innerHTML += placeholder;
-  });
-
-  // console.log(blockChunk, inlineChunk);
+  console.log(blockChunk, inlineChunk);
 }))();
