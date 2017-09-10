@@ -26,25 +26,17 @@ import { StyleSheet, css } from 'aphrodite-jss';
         },
         placeholderImage: {
           display: 'inline-block',
-          filter: 'brightness(380%)',
           backgroundColor: 'currentColor',
           width: imageWidth,
           height: imageHeight === 'none' ? 'auto' : imageHeight,
           minHeight: imageMinHeight
-        },
-        hidden: {
-          display: 'none'
         }
       });
-
-      const imagePlaceholder = document.createElement('div');
-      imagePlaceholder.classList.add(`${css(sheet.placeholderImage)}`);
 
       const image = el.hasAttribute('src');
 
       if (image) {
-        el.classList.add(`${css(sheet.hidden)}`);
-        el.parentNode.insertBefore(imagePlaceholder, el);
+        el.classList.add(`${css(sheet.placeholderImage)}`);
       } else {
         el.classList.add(`${css(sheet.placeholder)}`);
       }
