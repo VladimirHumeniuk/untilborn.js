@@ -28,7 +28,10 @@ import { StyleSheet, css } from 'aphrodite-jss';
         placeholderImage: {
           backgroundColor: 'currentColor',
           marginBottom: imageMargin,
-          opacity: .6
+          opacity: .6,
+          '& img': {
+            opacity: 0
+          }
         },
         untilLoad: {
           display: 'none'
