@@ -2,7 +2,6 @@
 import './styles/main.scss';
 
 // Scripts
-import './scripts/test';
 import './scripts/untilload';
 
 // All images

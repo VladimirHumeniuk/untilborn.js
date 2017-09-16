@@ -1,6 +1,62 @@
-{
-  "image": "assets/test.jpg",
-  "title": "Mister Mercedes",
-  "text": "Many jobless people are standing in line for a job fair when a Mercedes plows into the crowd killing 8 people and severely injuring many. Bill Hodges, a recently retired detective from the local police department living the life of a retiree, receives a letter from an individual claiming to be the person responsible for the job fair incident, referring to himself as Mr.Mercedes.",
-  "date": "23 december 2017"
-}
+[
+  {
+    "image": "assets/dunkirk.jpg",
+    "title": "Dunkirk",
+    "text": "DUNKIRK opens as hundreds of thousands of British and Allied troops are surrounded by enemy forces. Trapped on the beach with their backs to the sea, they face an impossible situation as the enemy closes in. The story unfolds on land, sea and air. RAF Spitfires engage the enemy in the skies above the Channel, trying to protect the defenseless men below. Meanwhile, hundreds of small boats manned by both military and civilians are mounting a desperate rescue effort, risking their lives in a race against time to save even a fraction of their army.",
+    "date": "Released Jul 21"
+  },
+  {
+    "image": "assets/dark-tower.jpg",
+    "title": "The Dark Tower",
+    "text": "Stephen King's THE DARK TOWER, the ambitious story from one of the world's most-celebrated authors, makes its long-awaited launch to the big screen, starring Idris Elba as Roland Deschain and Matthew McConaughey as the Man in Black. Sharing an ancient vendetta, they must fight to the death in this epic battle over the fate of the All-World Universe.",
+    "date": "Released Aug 4"
+  },
+  {
+    "image": "assets/planet-apes.jpeg",
+    "title": "War For The Planet Of The Apes",
+    "text": "In WAR FOR THE PLANET OF THE APES, the third chapter of the critically acclaimed blockbuster franchise, Caesar and his apes are forced into a deadly conflict with an army of humans led by a ruthless Colonel. After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind. As the journey finally brings them face to face, Caesar and the Colonel are pitted against each other in an epic battle that will determine the fate of both their species and the future of the planet.",
+    "date": "Released Jul 14"
+  },
+  {
+    "image": "assets/baby-driver.jpg",
+    "title": "Baby Driver",
+    "text": "A talented, young getaway driver (Ansel Elgort) relies on the beat of his personal soundtrack to be the best in the game. When he meets the girl of his dreams (Lily James), Baby sees a chance to ditch his criminal life and make a clean getaway. But after being coerced into working for a crime boss (Kevin Spacey), he must face the music when a doomed heist threatens his life, love and freedom.",
+    "date": "Released Jun 28"
+  },
+  {
+    "image": "assets/annabele.jpg",
+    "title": "Annabelle: Creation",
+    "text": "Several years after the tragic death of their little girl, a dollmaker and his wife welcome a nun and several girls from a shuttered orphanage into their home, soon becoming the target of the dollmaker's possessed creation, Annabelle.",
+    "date": "Released Aug 11"
+  },
+  {
+    "image": "assets/hitman-bodyguard.jpg",
+    "title": "The Hitman's Bodyguard",
+    "text": "The world’s top protection agent [Ryan Reynolds] is called upon to guard the life of his mortal enemy, one of the world’s most notorious hitmen [Samuel L. Jackson]. The relentless bodyguard and manipulative assassin have been on the opposite end of the bullet for years and are thrown together for a wildly outrageous 24 hours. During their raucous and hilarious adventure from England to the Hague, they encounter high-speed car chases, outlandish boat escapades and a merciless Eastern European dictator [Gary Oldman] who is out for blood. Salma Hayek joins the mayhem as Jackson’s equally notorious wife.",
+    "date": "Released Aug 18"
+  },
+  {
+    "image": "assets/atomic-blonde.jpg",
+    "title": "Atomic Blonde",
+    "text": "A high-stakes, global action-thriller that takes place in the city of Berlin, on the eve of the Wall's collapse and the shifting of superpower alliances. Charlize Theron (MAD MAX: FURY ROAD) portrays Lorraine Broughton, a top-level spy for MI6, who is dispatched to Berlin to take down a ruthless espionage ring that has just killed an undercover agent for reasons unknown. She is ordered to cooperate with Berlin station chief David Percival (James McAvoy of X-MEN), and the two form an uneasy alliance, unleashing their full arsenal of skills in pursuing a threat that jeopardizes the West's entire intelligence operation.",
+    "date": "Released Jul 28"
+  },
+  {
+    "image": "assets/beauty-and-beast.jpeg",
+    "title": "Beauty and the Beast",
+    "text": "Be our guest! Join Belle, Beast, and AMC for this enchanting, sweepingly romantic, and song-filled classic favorite. From her tiny town to an enchanted castle, Princess Belle’s story is one of Disney’s most elegant animated offerings.",
+    "date": "Released Nov 13"
+  },
+  {
+    "image": "assets/it.jpg",
+    "title": "It",
+    "text": "New Line Cinema’s horror thriller “IT,” directed by Andy Muschietti (“Mama”), is based on the hugely popular Stephen King novel of the same name, which has been terrifying readers for decades. When children begin to disappear in the town of Derry, Maine, a group of young kids are faced with their biggest fears when they square off against an evil clown named Pennywise, whose history of murder and violence dates back for centuries.",
+    "date": "Released Sep 8"
+  },
+  {
+    "image": "assets/the-game.jpg",
+    "title": "True To The Game",
+    "text": "Based on the Terri Woods best selling novel, True to the Game is the love story of Quadir Richards, a charismatic drug lord, and Gena Rollins, a young girl from the projects of Philly. Quadir was able to gain the trust and love of Gena and was on his way out of the game to start a new life with his future bride when tragedy strikes.",
+    "date": "Released Sep 8"
+  }
+]

@@ -2,6 +2,7 @@ import 'jss';
 import { StyleSheet, css } from 'aphrodite-jss';
 
 ((() => {
+
   let untilLoad = document.querySelectorAll('[data-attribute="untilLoad"]');
   untilLoad = Array.prototype.slice.call(untilLoad);
 
