@@ -92,9 +92,9 @@ module.exports = {
       'process.env': {
         NODE_ENV: JSON.stringify(NODE_ENV)
       },
-      'NODE_ENV': NODE_ENV,
-      '__DEV__': NODE_ENV === 'development',
-      '__PROD__': NODE_ENV === 'production'
+      NODE_ENV: NODE_ENV,
+      __DEV__: NODE_ENV === 'development',
+      __PROD__: NODE_ENV === 'production'
     }),
 
     new HtmlWebpackPlugin({
