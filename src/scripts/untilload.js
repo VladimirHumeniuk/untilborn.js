@@ -16,7 +16,8 @@ import { StyleSheet, css } from 'aphrodite-jss';
 
     const sheet = StyleSheet.create({
       placeholder: {
-        backgroundColor: 'currentColor',
+        position: 'relative',
+        background: 'linear-gradient(to right, currentColor, transparent)',
         opacity: 0.5,
         width: placeholderWidth === 'none' ? 'auto' : placeholderWidth,
         maxWidth: placeholderMaxWidth === 'none' ? '100%' : placeholderMaxWidth,
@@ -24,7 +25,7 @@ import { StyleSheet, css } from 'aphrodite-jss';
         marginBottom: placeholderMargin
       },
       placeholderImage: {
-        backgroundColor: 'currentColor',
+        background: 'linear-gradient(to right, currentColor, transparent)',
         marginBottom: imageMargin,
         opacity: 0.5,
         '& img': {
