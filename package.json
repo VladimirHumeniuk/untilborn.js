@@ -56,6 +56,6 @@
   },
   "dependencies": {
     "aphrodite-jss": "^2.0.0",
-    "jss": "^8.1.0"
+    "jss": "^10.6.0"
   }
 }
